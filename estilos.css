@@ -1,0 +1,140 @@
+/* 1. Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Gris claro */
+    color: #222;
+}
+
+/* 2. Encabezado (Header) */
+header {
+    background-color: #17408B; /* Azul NBA */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+/* 3. Menú de navegación */
+nav {
+    background-color: #C9082A; /* Rojo NBA */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 4. Contenedor principal */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* 5. Sección principal */
+.contenedor section {
+    flex: 3;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border-top: 5px solid #17408B;
+}
+
+/* 6. Aside */
+.contenedor aside {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border-top: 5px solid #C9082A;
+}
+
+/* 7. Artículos */
+article {
+    margin-bottom: 20px;
+}
+
+/* 8. Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 9. Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #17408B;
+    color: white;
+}
+
+/* 10. Formulario de contacto */
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 5px;
+    width: 200px;
+    margin-top: 5px;
+    border: 1px solid #17408B;
+}
+
+form input[type="submit"] {
+    background-color: #C9082A;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #17408B;
+}
+
+/* 11. Pie de página */
+footer {
+    background-color: #17408B;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+}
